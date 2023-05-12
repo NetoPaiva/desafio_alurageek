@@ -1,0 +1,42 @@
+/* 
+  este arquivo contém todos os estilos referente 
+  ao elemento HTML e será imnportado no arquivo "style.css" 
+*/
+
+/* mobile */
+.header__container{
+  background-color: var(--branco);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  box-sizing: border-box;
+
+  height: 4.5rem;
+  width: 100vw;
+
+  padding: 1rem;
+}
+
+/* tablete */
+@media screen and (min-width:768px) {
+  .header__container{
+    padding: 1rem 2rem;
+  }
+}
+
+
+/* laptop */
+@media screen and (min-width:1024px) {
+  .header__container{
+    height: 7.1875rem;
+
+    padding: 2rem 9.5rem;
+  }
+}
+
+
+/* desktop */
+@media screen and (min-width:1440px) {
+}

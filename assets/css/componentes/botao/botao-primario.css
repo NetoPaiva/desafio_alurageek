@@ -1,0 +1,47 @@
+/*  este arquivo contém todos os estilos referente 
+    ao elemento HTML e será imnportado no arquivo "style.css" */
+
+
+/* mobile */
+.botao__primario{
+    background: var(--azul-escuro);
+    border: none;
+    box-sizing: border-box;
+
+    padding: 0.75rem 1rem;
+
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--branco);
+    text-align: center;
+}
+
+.botao__primario:hover{
+    cursor: pointer;
+    border: none;
+    background-color: var(--azul-medio);
+
+    text-decoration: none;
+}
+
+.botao__primario:active{
+    background-color: var(--azul-escuro);
+}
+
+/* tablete */
+@media screen and (min-width:768px) {
+}
+
+
+/* laptop */
+@media screen and (min-width:1024px) {
+}
+
+
+/* desktop */
+@media screen and (min-width:1440px) {
+    .botao__primario{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}

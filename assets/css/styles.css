@@ -1,0 +1,16 @@
+/*  este arquivo reune todos os arquivos de estilo 
+    dos elementos e seções HTML do projeto, 
+    facilitando a importação na "index.html" */
+
+/* basic */
+@import url(./componentes/basic/normalize.css);
+@import url(./componentes/basic/base.css);
+
+/* botao */
+@import url(./componentes/botao/botao-primario.css);
+@import url(./componentes/botao/botao-secundario.css);
+
+/* header */
+@import url(./componentes/header/header_container.css);
+@import url(./componentes/header/header_logo.css);
+@import url(./componentes/header/header_busca.css);

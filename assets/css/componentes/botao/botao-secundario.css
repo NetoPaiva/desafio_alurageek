@@ -1,0 +1,59 @@
+/*  este arquivo contém todos os estilos referente 
+    ao elemento HTML e será imnportado no arquivo "style.css" */
+
+
+/* mobile */
+.botao__secundario{
+    background: none;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+
+    padding: 0.75rem 1rem;
+
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2A7AE4;
+    text-align: center;
+}
+
+.botao__secundario:hover{
+    cursor: pointer;
+    /* border: none; */
+    background-color: var(--azul-claro-btn);
+    text-decoration: none;
+}
+
+.botao__secundario:active{
+    background-color: transparent;
+}
+
+.botao__secundario, header{
+    padding: 0.75rem 2.96874rem;
+    width: 8.3125rem;
+    height: 2.5rem;
+}
+
+/* tablete */
+@media screen and (min-width:768px) {
+    .botao__secundario, header{
+        width: 10.375rem;
+    }
+}
+
+
+/* laptop */
+@media screen and (min-width:1024px) {
+}
+
+
+/* desktop */
+@media screen and (min-width:1440px) {
+    .botao__secundario{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .botao__secundario, header{
+        width: 11.375rem;
+    }
+}

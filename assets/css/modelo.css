@@ -1,0 +1,20 @@
+/*  este arquivo contém todos os estilos referente 
+    ao elemento HTML e será imnportado no arquivo "style.css" */
+
+
+/* mobile */
+
+
+/* tablete */
+@media screen and (min-width:768px) {
+}
+
+
+/* laptop */
+@media screen and (min-width:1024px) {
+}
+
+
+/* desktop */
+@media screen and (min-width:1440px) {
+}

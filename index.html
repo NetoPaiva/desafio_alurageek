@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 
-  <!-- metadados -->
+  <!-- dados do documento -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- dados da página -->
+  <meta name="description" content="AluraGeek - Challenge Oracle/Alura - Programa ONE">
+  <meta name="keywords" content="html, css, js, JavaScript, Alura, Oracle, ONE, Challenge, e-commerce">
+  <meta name="author" content="Neto Paiva">
+
+  <!-- título da página -->
   <title>AluraGerk | Neto Paiva</title>
   <link rel="shortcut icon" href="./assets/images/icon_netopaiva.png" type="image/x-icon">
 
   <!-- fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
   <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
 
   <!-- JS -->
   <script src="" defer></script>
@@ -21,5 +31,45 @@
 </head>
 
 <body>
+
+  <header class="header__container">
+
+    <h1>
+      <a href="index.html">
+        <img 
+          class="header__logo--mobile" 
+          src="./assets/images/header/logo_100x28.png" 
+          alt="logo AluraGeek">
+        <img 
+          class="header__logo--laptop" 
+          src="./assets/images/header/logo_176x50.png" 
+          alt="logo AluraGeek">
+      </a>
+    </h1>
+
+    <div class="header__busca">
+      <input 
+        class="header__busca--input" 
+        type="search" 
+        placeholder="O que deseja encontrar?" 
+        data-busca>
+      <a href="#">
+        <img 
+          class="header__busca__lupa" 
+          src="./assets/images/header/lupa.svg" 
+          alt="ícone de uma lupa">
+      </a>
+    </div>
+
+    <a class="botao__secundario header" href="#">Login</a>
+
+    <a class="header__busca--mobile" href="#">
+      <img 
+        src="./assets/images/header/lupa-2.svg" 
+        alt="ícone de uma lupa">
+    </a>
+
+  </header>
+
 </body>
 </html>

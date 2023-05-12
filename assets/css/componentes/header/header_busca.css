@@ -1,0 +1,52 @@
+/* 
+  este arquivo contém todos os estilos referente 
+  ao elemento HTML e será imnportado no arquivo "style.css" 
+*/
+
+/* mobile */
+.header__busca {
+  display: none;
+}
+
+/* tablete */
+@media screen and (min-width:768px) {
+
+  .header__busca--mobile{
+    display: none;
+  }
+
+  .header__busca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #F5F5F5;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+    height: 2.5rem;
+    width: 17rem;
+
+    margin-left: 2rem;
+    margin-right: 8.375rem;
+
+    padding: 0.5rem 1rem;
+  }
+
+  .header__busca--input{
+    flex-grow: 1;
+  }
+}
+
+/* laptop */
+@media screen and (min-width:1024px) {
+
+}
+
+/* desktop */
+@media screen and (min-width:1440px) {
+  .header__busca{
+    margin-right: 22.0625rem;
+    width: 24.5625rem;
+  }
+}

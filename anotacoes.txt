@@ -1,0 +1,26 @@
+Fontes utilizadas no projeto
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+
+Alterar porta do servidor para rodar json-server
+json-server -p 4000 db.json
+
+
+Cores do projeto
+
+--azul-claro-btn: #D4E4FA;
+--azul-claro: #EAF2FD;
+--azul-medio: #5595E9;
+--azul-escuro: #2A7AE4;
+
+--cinza-claro: #F5F5F5;
+--cinza-medio: #A2A2A2;
+--cinza-escuro: #464646;
+
+--background: #E5E5E5;
+--branco: #FFFFFF;
+
+--erro: #6E333D;
